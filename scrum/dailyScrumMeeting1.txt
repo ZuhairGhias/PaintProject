@@ -1,0 +1,54 @@
+# Fill in, commit and push each day.
+# Group Member: Jingheng Cui
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     :BUG 6 is now fixed, Circle drawing should work.
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :
+	Today     :USER STORY 2&3 completed
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 6, 2016
+	Yesterday :
+	Today     :Color selector added to my branch
+	Obstacles :
+	
+Nov 7, 2016
+	Yesterday :
+	Today     :fix BUG 2
+	Obstacles :
+	
+Nov 8, 2016
+	Yesterday :
+	Today     :Implement Square
+	Obstacles :
+	
+Nov 9, 2016
+	Yesterday :
+	Today     :Implement Polyline
+	Obstacles :
+	
+Nov 11, 2016
+	Yesterday :
+	Today     :Implement open/save
+	Obstacles :	
+Nov 16, 2016
+	Yesterday :
+<<<<<<< HEAD
+	Today     :Implement the new button/ right angle triangle
+=======
+	Today     :Implement the new button/ right angle triangle / color picker
+>>>>>>> branch 'master' of https://cslinux.utm.utoronto.ca/git/repo_csc207.git
+	Obstacles :	

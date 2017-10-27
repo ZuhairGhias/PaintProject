@@ -1,0 +1,76 @@
+# Fill in, commit and push each day.
+# Group Member: Necmeddin Talha Ucar
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     : Joined to the group, solved repo problems.
+	Obstacles : Make contact with team
+
+Nov 4, 2016
+	Yesterday : Joined to the group
+	Today     : Made contact with team
+	Obstacles : Find a way to communicate with team that is more efficient than emailing.
+
+Nov 5, 2016
+	Yesterday : Made contact with team
+	Today     : Busy today, will not be able to work.
+	Obstacles : I do not have much time today, but i need to read the assignment
+	
+Nov 6, 2016
+	Yesterday : I was busy, but had some time to read the assignment
+	Today     : Start working! USERSTORY_8 and BUG 7-8-9 are done.
+	Obstacles : Lots of work!!
+	
+Nov 7, 2016
+	Yesterday : Started working finished USERSTORY_8 and BUG 7-8-9.
+	Today     : We had a group meeting. Talked about architecture of the code. Finished: BUG_4, BUG_5, USERSTORY_8, USERSTORY_11
+	Obstacles : Woke up late so i was late to the meeting.
+	
+Nov 8, 2016
+	Yesterday : Finished: BUG_4, BUG_5, USERSTORY_8, USERSTORY_11
+	Today     : We made a mistake, starting to code without learning our resource totally. So today, i will sit and learn more about swing. Finished: BUG_10
+	Obstacles : Wow, swing is a big library.
+	
+Nov 9, 2016
+	Yesterday : Finished: BUG_10 ; Made a better gui for paint project but it has many errors, probably will be ready for sprint 2. How it looks right now: http://prntscr.com/d5b9jq (There will be lots of changes)
+	Today     : Try to finish the project. Finished: BUG_12
+	Obstacles : I have a test tomorrow. Need to study for it.
+	
+Nov 10, 2016
+	Yesterday : Finished: BUG_12
+	Today     : Finished: BUG_2.1
+	Obstacles : Need to study on my Presentation for another Course
+	
+Nov 11, 2016
+	Yesterday : 
+	Today     : Studying for another course
+	Obstacles : 
+	
+Nov 12, 2016
+	Yesterday : 
+	Today     : Did not do anything today
+	Obstacles : 
+	
+Nov 13, 2016
+	Yesterday : 
+	Today     : Did not do anything today
+	Obstacles : 
+	
+Nov 14, 2016
+	Yesterday : Researching on GUI
+	Today     : Working on GUI, the template is ready. Organized the whole project. Created folders for each type of classes, put them in order. Use Hierarchical package presentation.
+	Obstacles : due date is close
+	
+Nov 15, 2016
+	Yesterday : The template is ready.
+	Today     : Finished GUI, connected every feature with the GUI by coding each panel. Finished: USERSTORY_15 (This was a big one)
+	Obstacles : 
+	
+Nov 16, 2016
+	Yesterday : Finished: USERSTORY_15
+	Today     : Finished: USERSTORY_16 & USERSTORY_17 & USERSTORY_18 & USERSTORY_19 & USERSTORY_20 & USERSTORY_21 & BUG_18 & BUG_19 & BUG_20 & BUG_21 & BUG_22 & BUG_23
+	Obstacles : Last day!

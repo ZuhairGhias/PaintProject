@@ -1,0 +1,77 @@
+# Fill in, commit and push each day.
+# Group Member: Gary Liton
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     : Joined Group
+	Obstacles : Need to make some sort of group chat
+
+Nov 4, 2016
+	Yesterday : Joined group
+	Today     : Joined  group chat with group, Read through the assignment
+	Obstacles : Need to plan assignment
+
+Nov 5, 2016
+	Yesterday : Joined  group chat with group, Read through the assignment
+	Today     : Assigned userstory to group members and worked on assigned 
+				userstory
+	Obstacles :
+
+Nov 6, 2016
+	Yesterday : Assigned userstory to group members
+	Today     : Started UserStory6  
+	Obstacles : ran into small issue with UserStory6
+	
+Nov 7, 2016
+	Yesterday : Started UserStory6 but ran into small issue
+	Today     : Fixed issue, finished UserStorySix
+	Obstacles :
+	
+Nov 8, 2016
+	Yesterday :  Fixed issue, finished UserStorySix
+	Today     : Started Bug1
+	Obstacles : ran into an issue, can only see icons in my computer
+	
+Nov 9, 2016
+	Yesterday : Started Bug1 but ran into an issue, can only see icons in my computer
+	Today     : Fixed issue, finished Bug1
+	Obstacles :
+	
+Nov 10, 2016
+	Yesterday : Fixed issue, finished Bug1
+	Today     : Began working on new userstorys and bugs
+	Obstacles :
+	
+Nov 11, 2016
+	Yesterday : Began working on new userstorys and bugs
+	Today     : Did not work on Assignment
+	Obstacles :
+	
+Nov 12, 2016
+	Yesterday : Did not work on Assignment
+	Today     : Did not work on Assignment
+	Obstacles :
+	
+Nov 13, 2016
+	Yesterday : Did not work on Assignment
+	Today     : Worked on the architecture of program
+	Obstacles :
+	
+Nov 14, 2016
+	Yesterday : Worked on the architecture of program
+	Today     : Worked on bugs 23, 24
+	Obstacles : ran into small issues
+	
+Nov 15, 2016
+	Yesterday :  ran into small issues
+	Today     : Started Bug16
+	Obstacles : Ran in to some issues with eraser
+	
+Nov 16, 2016
+	Yesterday : Started Bug1 but ran into an issue, can only see icons in my computer
+	Today     : Worked on Documentations, Finised Bug16, Bug23, Bug24
+	Obstacles :

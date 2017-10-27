@@ -1,0 +1,58 @@
+# Copy User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 November 3, 2016
+# Sprint 1 Backlog UserStories go below
+USER STORY 1
+USER STORY 2
+USER STORY 3
+USER STORY 4
+USER STORY 5
+USER STORY 6
+USER STORY 7
+USER STORY 8
+USER STORY 9
+USER STORY 10
+USER STORY 11
+USER STORY 12
+BUG 1
+BUG 2
+BUG 4
+BUG 5
+BUG 6
+BUG 7
+BUG 8
+BUG 9
+BUG 10
+BUG 12
+
+
+# Sprint 2 November 10, 2016
+# Sprint 2 Backlog UserStories go below
+USER STORY 13
+USER STORY 14
+USER STORY 15
+USER STORY 16
+USER STORY 17
+USER STORY 18
+USER STORY 19
+USER STORY 20
+USER STORY 21
+BUG 2.1
+BUG 2.2
+BUG 2.3
+BUG 2.4
+BUG 2.5
+BUG 13
+BUG 14
+BUG 15
+BUG 16
+BUG 17
+BUG 18
+BUG 19
+BUG 20
+BUG 21
+BUG 22
+BUG 23
+BUG 24

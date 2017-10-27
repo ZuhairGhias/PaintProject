@@ -1,0 +1,62 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user.
+	
+	View+Controller
+	There is a View class as well as a few, what we call, view components.
+	The View class capturing the JFrame as well
+	as containing all of its components.
+	View components are meant to be contained in the main View.
+	Examples of view components are PaintPanel and ShapeChooserPanel.
+	
+	The View class, and view components all implements their own controller.
+	For example, the PaintPanel listens to its own MouseEvents.
+	This is instead of separating out the Controller from the View. This choice
+	was made to simplify the code, yet still keep it modular and clear.
+	
+	Each view component can see the containing View as well as the Model
+	as appropriate. This means that each view component can speak to the
+	other view components. An example of this is when the ShapeChooserPanel
+	buttons are clicked, resulting in a mode change in the PaintPanel.
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+	Strategy:
+	- Every shape is drawn using its own strategy, which the paint panel is aware of.
+	- We are using this design pattern to separate the shape classes, but instead of an interface we are using an abstract class.
+	
+	Command: 
+	- Pattern used in PaintModel to allow for undos and redos.
+	
+	Singleton:
+	- We are using this design pattern for PaintModel because there is only one instance of Model any time.
+	Composite:
+	Factory:
+	
+	Builder:
+	Observer/Observable: 
+	-We are using this design pattern to observe the change in PaintModel.
+	- Strategies are also builders for shapes.
+	
+	Observer/Observable: 
+	- We are using this design pattern to observe the change in PaintModel.
+	
+
+OTHER ARCHITECTURE DISCUSSIONS

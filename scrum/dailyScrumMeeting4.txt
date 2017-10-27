@@ -1,0 +1,76 @@
+# Fill in, commit and push each day.
+# Group Member: Zuhair Ghias
+Nov 2, 2016
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :
+	Today     : Joined a group
+	Obstacles : Need to reach members(still don't know who they are)
+
+Nov 4, 2016
+	Yesterday : Joined a group
+	Today     : Made contact with group
+	Obstacles : Coordinate with members to complete assignment
+
+Nov 5, 2016
+	Yesterday : Made contact with group
+	Today     : Thoroughly read through assignment, created my own branch
+	Obstacles : Divide work load amongst members. Start working
+
+Nov 6, 2016
+	Yesterday : Read over assigment
+	Today     : Started and completed user story 4
+	Obstacles : more user stories and bug to be completed
+	
+Nov 7, 2016
+	Yesterday : Cpmpleted story 4
+	Today     : Had productive group meeting, discussed progress and assigned new stories
+	Obstacles :	Work on user story 7
+	
+Nov 8, 2016
+	Yesterday : Started story 7
+	Today     : Ended stroy 7
+	Obstacles :	Improve designs and GUI
+	
+Nov 9, 2016
+	Yesterday :	Completed story 7
+	Today     : No physical work, just planning
+	Obstacles : Plan next sprint
+
+Nov 10, 2016
+	Yesterday :	Planning
+	Today     : Updated product backlog and begun working on bugs
+	Obstacles : finish all the bugs
+	
+Nov 11, 2016
+	Yesterday :	Started debugging
+	Today     : Bug 13 resolved
+	Obstacles : finish all the bugs
+	
+Nov 12, 2016
+	Yesterday :	Started debugging
+	Today     : Took a break
+	Obstacles : finish all the bugs
+
+Nov 13, 2016
+	Yesterday :	Took break
+	Today     : Reviewed code and identified some more bugs
+	Obstacles : finish all the bugs
+
+Nov 14, 2016
+	Yesterday :	Reviewed code and identified some more bugs
+	Today     : Added .gitignore
+	Obstacles : Finish all the bugs, especially design pattern ones
+
+Nov 15, 2016
+	Yesterday :	Added .gitignore
+	Today     : Implemented Strategy Design
+	Obstacles : Polishing and Documenting
+
+Nov 16, 2016
+	Yesterday :	Implemented Strategy Design
+	Today     : Finalized code for submission
+	Obstacles : Take a chill pill!!!!

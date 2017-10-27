@@ -1,0 +1,606 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+# For example, the color chooser user story involves: 
+# 1 Color chooser UI (which could be a USER STORY)
+# 2 Implementation of selected color into the drawing stream.
+
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1
+NAME     : Draw Circle
+OWNER    : 
+PRIORITY : 1
+ESTIMATE : 0 hours
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2
+NAME     : Draw Circle Feedback
+OWNER    : Jingheng
+PRIORITY : 2
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3
+NAME     : Draw Rectangle
+OWNER    : Jingheng
+PRIORITY : 2
+ESTIMATE : 0.5 hours
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to 
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 4
+NAME     : Draw Rectangle Feedback
+OWNER    : Zuhair
+PRIORITY : 3
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5
+NAME     : Color selector
+OWNER    : Jingheng
+PRIORITY : 3
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example: 
+           		selects color red 
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6
+NAME     : Fill style selector
+OWNER    : Gary Liton
+PRIORITY : 4
+ESTIMATE : 3 hours 
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example: 
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : I can have different shapes with different fill colors and/or outlines
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7
+NAME     : Line thickness selector
+OWNER    : Zuhair
+PRIORITY : 5
+ESTIMATE : 4 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline 
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined 
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : User can change the thickness
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 8
+NAME     : Undo Button
+OWNER    : Necmeddin
+PRIORITY : 5
+ESTIMATE : 10 minutes
+AS A     : user
+I WANT   : the undo button to be functional
+SO THAT  : the user can revert changes
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 9
+NAME     : Implement Polyline
+OWNER    : Jingheng Cui
+PRIORITY : 6
+ESTIMATE : 1 hours
+AS A     : user
+I WANT   : make a polyline
+SO THAT  : I can draw make polyline
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 10
+NAME     : Better color chose panel
+OWNER    : Necmeddin
+PRIORITY : 4
+ESTIMATE : 30 minutes
+AS A     : user
+I WANT   : to be able to choose colors with better panel. It should use color
+		   buttons instead buttons named `red`, `blue`
+SO THAT  : it looks better
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 11
+NAME     : Redo Button
+OWNER    : Necmeddin
+PRIORITY : 5
+ESTIMATE : 10 minutes
+AS A     : user
+I WANT   : the redo button to be functional
+SO THAT  : the user can revert undos
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 12
+NAME     : Implement square
+OWNER    : Gary Liton
+PRIORITY : 6
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : make a square
+SO THAT  : I can draw make square
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 13
+NAME     : save Button
+OWNER    : Jingheng Cui
+PRIORITY : 6
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : the save button to be functional
+SO THAT  : the user can save their work.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 14
+NAME     : open Button
+OWNER    : Jingheng Cui
+PRIORITY : 6
+ESTIMATE : 3 hours
+AS A     : user
+I WANT   : the open button to be functional
+SO THAT  : the user can use a png file as background.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 15
+NAME     : BETTER GUI
+OWNER    : Necmeddin
+PRIORITY : 1
+ESTIMATE : 15 hours
+AS A     : user, programmer
+I WANT   : The overall GUI needs to be improved in ways of design, architecture, and features.
+SO THAT  : The program would be more user friendly + more efficient.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 16
+NAME     : Create Custom Color
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 15 minutes
+AS A     : user
+I WANT   : to be able to create custom color
+SO THAT  : that the paint can customized.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 17
+NAME     : Add Line Shape
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : to be able to create lines
+SO THAT  : there is more feature in the program.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 18
+NAME     : Add Triangle Shape
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : to be able to create triangles
+SO THAT  : there is more feature in the program.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 19
+NAME     : Add functionality to New Button
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : To create a new paint
+SO THAT  : so i have easy access to a clear page.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 20
+NAME     : Add functionality to Exit Button
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 5 minutes
+AS A     : user
+I WANT   : to exit using exit button in menu
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 21
+NAME     : Shape Pentagon
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 30 minutes
+AS A     : user
+I WANT   : to be able to create pentagons
+SO THAT  : it has more features
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 22
+NAME     : Color Picker
+OWNER    : Jingheng
+PRIORITY : 3
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : to be able to pick color from paint panel
+SO THAT  : so i have easy access to a specific color.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1
+NAME     : Icons instead of text for drawing mode selection
+OWNER    : Gary Liton
+PRIORITY : 5
+ESTIMATE : 2 hours
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2
+NAME     : Drawing selection mode not indicated
+OWNER    : Jingheng
+PRIORITY : 5
+ESTIMATE : 0.5 hours
+ISSUE    : Currently ,you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is JButton correct, is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 4
+NAME     : Architecture behind Model is poor
+OWNER    : Necmeddin
+PRIORITY : 1
+ESTIMATE : 1 hour
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here. Plus shapes uses if/else for drawing and editing. Create
+           an inheritance class for that.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 5
+NAME     : Squiggle is broken
+OWNER    : Necmeddin
+PRIORITY : 5
+ESTIMATE : 20 minutes
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 6
+NAME     : Circle drawing is broken
+OWNER    : Jingheng
+PRIORITY : 2
+ESTIMATE : 0.5 hours
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 7
+NAME     : Feedback is broken
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 10 minutes
+ISSUE    : The feedback of any shape uses defaults color instead of chosen color
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 8
+NAME     : Defaults are wrong
+OWNER    : Necmeddin
+PRIORITY : 4
+ESTIMATE : 5 minutes
+ISSUE    : Default background should be white, default color should be black, 
+           default mode should be Squiggle
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 9
+NAME     : Feedback - Dragging event has problems
+OWNER    : Necmeddin
+PRIORITY : 1
+ESTIMATE : 40 minutes
+ISSUE    : Everytime mouse drag event is triggered, same shape object is added to 
+           the arraylist. There should be update method instead of 
+           `addRectangular`, `addCircle` etc. Plus, before adding the same object
+           it should check if the array list contains the object or not.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 12
+NAME     : Square does not work properly
+OWNER    : Necmeddin
+PRIORITY : 3
+ESTIMATE : 30 minutes
+ISSUE    : The square does not work if you try to create a square without
+           starting from left+up corner.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 13
+NAME     : Cant draw multiple polylines
+OWNER    : Zuhair
+PRIORITY : 8
+ESTIMATE : 2 hours
+ISSUE    : switching shapes and undoing doesnt erase the polyline permanently
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 10
+NAME     : Color chooser panel not displaying colors on MAC
+OWNER    : 
+PRIORITY : 0
+ESTIMATE : 
+ISSUE    : Color panel appears as empty boxes on MAC. Works however.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 13
+NAME     : Icons for outline and fill instead of just text
+OWNER    : Gary Liton
+PRIORITY : 7
+ESTIMATE : 30 minutes
+ISSUE    : Color panel appears as empty boxes on MAC. Works however.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.1
+NAME     : Architecture for drawing shapes can be improved
+OWNER    : Necmeddin
+PRIORITY : 5
+ESTIMATE : 3 hours
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to draw shapes as follows:
+
+The PaintModel should use the command design pattern. 
+That is, each shape knows how to draw itself, so there is a single list of 
+DrawingCommands maintained by the PaintModel and used by the PaintPanel.
+paintComponent simply asks the PaintModel to ask command to execute(g2d).
+The simplest way to make this happen is to make each shape implement the 
+DrawingCommand interface which requires execute(g2d) to be implemented.
+Well sort of.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.2
+NAME     : Architecture for handling shape modifiers can be improved 
+OWNER    : Zuhair
+PRIORITY : 6
+ESTIMATE : 3 hours
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to handle changes to the graphics contex such as changing drawing 
+color, stroke width etc. You can accomplished this by wrapping the changes
+to the graphics context in a DrawingCommand. This way these changes can be
+added to the Bug 2.1 DrawingCommand list. That is, these new types of 
+DrawingCommands appear on PaintPanel's list right along side 
+the Shape type DrawingCommands.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.3
+NAME     : Architecture behind choosing drawing mode is poor
+OWNER    : Zuhair & Necmeddin
+PRIORITY : 6
+ESTIMATE : 3 hours
+ISSUE    : A better architecture behind selecting a drawing mode can be created 
+by implementing the Factory Design Pattern as follows:
+
+The factory design pattern should be used by the paint buttons. 
+The factory is responsible for creating different ShapeManipulatorStrategy 
+instances (see BUG 2.4). That is, when a button is pressed, the appropriate 
+ShapeManipulatorStrategy is created and installed in the PaintPanel. 
+Note that you can associate text with a button, even if you 
+display an ImageIcon. The string attached to the button causes the right choice 
+of object creation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.4
+NAME     : Architecture behind creating shape instances is poor
+OWNER    : Zuhair
+PRIORITY : 7
+ESTIMATE : 3 hours
+ISSUE    : A better architecture for creating shape instances so that it is 
+more flexible, and easier to work with can be created using the Strategy Design 
+pattern as follows:
+
+Create class/abstract class/interface  ShapeManipulatorStrategy as well 
+as subclasses/implementators for each type of Shape. Call these the
+concrete ShapeNamipulatorStrategies
+
+The concrete ShapeManipulatorStrategies are responsible for 
+
+1. Creating instances of Shape and putting them on top of 
+   the PaintModel command stack.
+
+2. Understanding how mouse events modify the shape at the top of the 
+   PaintModel command stack.
+
+3. Calling the PaintPanel repaint at appropriate times.
+
+This strategy can be put in place either by having PaintPanel's mouse 
+events forwarded through PaintPanel into the current strategy, or by 
+simply switching the PaintPanel's listeners as appropriate.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.5
+NAME     : Move non src files from src directory
+OWNER    : Necmeddin
+PRIORITY : 1
+ESTIMATE : 5 minutes
+ISSUE    : ANoteOnGit.txt members.txt scrum and other non-src files/folders
+should appear in repo_[GROUP]/Assignment2, not in 
+repo_[GROUP]/Assignment2/src causing copies to be sent to
+repo_[GROUP]/Assignment2/bin/ and subsequent issues
+with git pulling and merging.
+RESOLVE  : Move above files and directories, add to index, commit
+and push.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.6
+NAME     : Git repo has incorrect .gitignore
+OWNER    : Necmeddin
+PRIORITY : 6
+ESTIMATE : 10 minutes
+ISSUE    : Modifications to src files leads to changes to .class files
+in repo_[GROUP]/Assignment2/bin/. These changes lead to, if commited,
+potential conflicts. To fix this, on the master branch, add a .gitignore to 
+repo_[GROUP]/Assignment2/ or repo_[GROUP]/. The contents of .gitignore
+could be, for example,
+
+/bin/
+
+You will need to add the .gitignore to index, commit and push it.
+Unfortunately, this is not the end of the issue though, once git starts
+tracking a file, it continues tracking it. To fix this, delete the .class
+files (and any other files of interest) from the bin directory. Add this
+change to index, commit and push. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 3
+NAME     : Architecture behind choosing selection mode is poor
+OWNER    : Zuhair
+PRIORITY : 6
+ESTIMATE : 3 hours
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 16
+NAME     : Erase tool
+OWNER    : Gary Liton
+PRIORITY : 8
+ESTIMATE : 
+ISSUE    : erase painting
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 17
+NAME     : Documentation and Code clean up needed
+OWNER    : Zuhair, Gary, Necmeddin
+PRIORITY : 9
+ESTIMATE : 5 hours
+ISSUE    : Prepare code for submission...... HURRAH!!!
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 18
+NAME     : Polyline is broken
+OWNER    : Necmeddin
+PRIORITY : 1
+ESTIMATE : 5 minutes
+ISSUE    : Polyline does not show
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 19
+NAME     : Polyline is broken
+OWNER    : Necmeddin
+PRIORITY : 9
+ESTIMATE : 15 minutes
+ISSUE    : when you finish the shape, it does not connect ending and beginning points.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 20
+NAME     : Polyline is broken
+OWNER    : Necmeddin
+PRIORITY : 9
+ESTIMATE : 15 minutes
+ISSUE    : It does not get filled when the fill is toggled.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 21
+NAME     : Polyline is still broken
+OWNER    : Necmeddin
+PRIORITY : 9
+ESTIMATE : 15 minutes
+ISSUE    : It gives error if you keep dragging after double click. (finishes the shape then sets it to null. which means java.lang.NullPointerException).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 22
+NAME     : Singleton Design Pattern
+OWNER    : Necmeddin
+PRIORITY : 9
+ESTIMATE : 1 hours
+ISSUE    : Model should use singleton design pattern
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 23
+NAME     : ToolTip Instructions
+OWNER    : Gary
+PRIORITY : 9
+ESTIMATE : 2 hours
+ISSUE    : Set Tooltips for each button to show how to use
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 23
+NAME     : Thickness Max
+OWNER    : Gary
+PRIORITY : 9
+ESTIMATE : 1 hours
+ISSUE    : Notify user about the maximum thickness possible,
+			Anything passed max does not affect thickness
+--------------------------------------------------------------------------
+# OMITTED USER STORIES/BUGS BELOW   ###########################################
+--------------------------------------------------------------------------
+TYPE     : BUG 11
+NAME     : Architecture behind the shapeOptionsPanel is poor
+OWNER    : 
+PRIORITY : 6
+ESTIMATE : 
+ISSUE    : The whole panel at the south should be one and change depending on shape chosen.
+		   Maybe it could be an observer of the shape panel
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 15
+NAME     : Background color
+OWNER    : 
+PRIORITY : 8
+ESTIMATE : 
+ISSUE    : I want to be able to choose a background color by dragging and dropping the color
+--------------------------------------------------------------------------
